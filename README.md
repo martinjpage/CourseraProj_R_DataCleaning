@@ -1,4 +1,3 @@
-==================================================================
 Summarised and Subsetted Dataset of the 'Human Activity Recognition Using Smartphones Dataset'
 ==================================================================
 Martin J Page
