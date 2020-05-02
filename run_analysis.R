@@ -74,6 +74,7 @@ levels(small_df$activity) <- act_names #set the levels of the activity factor to
 summary_df <- small_df %>% group_by(activity, subject) %>% summarise_all(mean)
 
 #write tidy data to file
-write.table(summary_df, ".//Assigment4Output.txt", row.name=FALSE)
+write.table(summary_df, ".//Assigment4Output.txt", row.name=FALSE, col.names = TRUE)
 
-
+#write file back in
+dat <- read.table(".//Assigment4Output.txt", header = TRUE)
