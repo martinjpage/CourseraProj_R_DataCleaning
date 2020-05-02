@@ -14,23 +14,23 @@ These signals were used to estimate variables of the feature vector for each pat
 
 Variable Names
 =================
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+tBodyAcc-XYZ  
+tGravityAcc-XYZ  
+tBodyAccJerk-XYZ  
+tBodyGyro-XYZ  
+tBodyGyroJerk-XYZ  
+tBodyAccMag  
+tGravityAccMag  
+tBodyAccJerkMag  
+tBodyGyroMag  
+tBodyGyroJerkMag  
+fBodyAcc-XYZ  
+fBodyAccJerk-XYZ  
+fBodyGyro-XYZ  
+fBodyAccMag  
+fBodyAccJerkMag  
+fBodyGyroMag  
+fBodyGyroJerkMag  
 
 The set of variables that were estimated from these signals are:
 mean: Mean value
@@ -52,18 +52,18 @@ The output of this analysis is the average of each of the above variables groupe
 
 ***note: the following additional averaged vectors are not included in this summary but are part of the original data set***
 
-gravityMean
-tBodyAccMean
-tBodyAccJerkMean
-tBodyGyroMean
-tBodyGyroJerkMean
+gravityMean  
+tBodyAccMean  
+tBodyAccJerkMean  
+tBodyGyroMean  
+tBodyGyroJerkMean  
 
 Activity Labels
 =================
-1 WALKING
-2 WALKING_UP
-3 WALKING_DOWN
-4 SITTING
-5 STANDING
-6 LAYING
+1 WALKING  
+2 WALKING_UP  
+3 WALKING_DOWN  
+4 SITTING  
+5 STANDING  
+6 LAYING  
 *** the activity variable is a factor with named levels as above
